@@ -8,7 +8,7 @@
     $champion = strtolower($_POST['nome']);
     
     if($representacao === "" || $champion == ""){
-        die();
+        echo 'Invalid champion name.';
     }
     
     if(!is_null(mysqli_fetch_array(mysqli_query($conexao, "SELECT * FROM sugestoes WHERE champion = '$champion' AND representacao = '$representacao'")))){
