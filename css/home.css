@@ -1,0 +1,181 @@
+#about{
+    background-image: url("../img/aboutbg.png");
+    background-size: cover;
+}
+#statistics{
+    background-image: url("../img/statisticsbg.png");
+    background-size: cover;
+}
+#ideias{
+    background-image: url("../img/ideabg.png");
+    background-size: cover;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.parallax { 
+    background-image: url("http://sdeerwallpaper.com/Cool-Wallpapers/league-of-legends-yasuo-wallpaper-desktop-Is-Cool-Wallpapers.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-rounded, .btn-rounded-blue{
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 15px;
+    border-radius: 15px;
+    width: 40%;
+    color:white;
+    background-color: rgba(184, 183, 217, 1);
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
+    text-shadow: 2px 2px rgba(0,0,0,0.1);
+    letter-spacing: 1px;
+}
+
+.btn-rounded-blue{
+    background-color: #235d96;
+    border-color: #1d4975;
+}
+
+.btn-rounded-blue:hover{
+    color: white;
+    background-color: #153757;
+    border-color: #112a44;
+}
+
+.btn-rounded:hover{ 
+    color: white;
+}
+
+.btn-purple{
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 15px;
+    border-radius: 15px;
+    width: 40%;
+    color:white;
+    background-color: #1c82e8;
+    letter-spacing: 1px;
+    border-color: #0070df;
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
+}
+
+.btn-purple:hover{
+    color:white;
+    background-color: #0353a4;
+    border-color: #024d98;
+}
+
+.about-text, .idea-text, .stats-title {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+    color:#9cceff;
+    text-shadow: 2px 2px rgba(0,0,0,0.1);
+	font-variant: normal;
+}
+
+.invite-button{
+    margin-left: 50px;
+    background-color: #281ad9;
+}
+
+.invite-button:hover{
+    background-color: #685cff;
+}
+
+.navbar .nav li > a:focus{
+    color: #999595;
+}
+
+.idea-text{
+    color: #b59cfe;
+}
+
+.stats-title{
+    font-size: 15px;
+    text-shadow: 1px 1px black;
+}
+
+.champion-hardest, .champion-easiest{
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    max-width: 480px;
+    background-color: rgba(61,149,105,0.4);
+    overflow:hidden;
+}
+
+.champion-hardest{
+    margin-top:20px;
+}
+
+.champion-easiest{
+    margin-top: 30px;
+}
+
+.helper-text{
+    color: white;
+}
+
+.menu{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+.active{
+    color: white;
+}
+
+h1 {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 35px;
+    color:white;
+    text-shadow: 2px 2px rgba(0,0,0,0.1);
+	font-style: normal;
+	font-variant: normal;
+}
+
+body {
+    position: relative;
+}
+
+section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+    background: rgba(70, 32, 102, .5);
+}
+
+footer {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    padding: 1% 5%;
+    text-align:center;
+    background-color: #373B44;
+    color: white;
+    text-shadow: 2px 2px rgba(0,0,0,0.1);
+}
+
+@media only screen and (max-width: 1000px){
+    .chart-container{
+        position: relative;
+        margin: auto;
+        width:60%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .menu{
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: 'KristenITC'; /*a name to be used later*/
+    src: url('fonts/ITCKRIST.TFF'); /*URL to font*/
+}
+
