@@ -9,7 +9,7 @@
         private $usuario = 'dcbot';
 
         //senha
-        private $senha = 'Zk5wqueCA~~0';
+        private $senha = 'flexthatbrain@@';
 
         //banco de dados
         private $database = 'dcbot';
